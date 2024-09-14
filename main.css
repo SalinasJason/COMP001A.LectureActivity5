@@ -20,10 +20,40 @@ body {
 h1 {
     color: #039C7F; /* Teal text color */
     font-size: 2em; /* 2x the default font size */
-    margin-bottom: #027368; /* Adding some space below the heading */
+    margin-bottom: 1em; /* Adding some space below the heading */
 }
 
 h2 {
     font-size: 1.5em; /* 1.5x the default font size */
     color: #027368; /* Dark teal text color */
+}
+
+/* Styling the paragraph */
+p {
+    font-size: 16px; /* 16px is the default font size */
+    color: #7f8c8d; /* Grayish-blue color */
+    margin-bottom: 12px; /* Adding some space below the paragraph */
+}
+
+/* Styling the link within the paragraph */
+p a {
+    color: #f39c12; /* Gold accent */
+    text-decoration: none; /* Removing the underline */
+}
+
+/* Styling the unordered list */
+ul {
+    list-style-type: none; /* Removing the bullet points */
+    margin-left: 20px; /* Indenting the list */
+    margin-bottom: 12px; /* Adding some space below the list */
+}
+
+ul li {
+    margin-bottom: 5px; /* Adding some space below each list item */
+    color: #7f8c8d; /* Grayish-blue text color */
+}
+
+/* Styling the unordered list within a div */
+div ul {
+    list-style-type: square; /* Adding the bullet points back */
 }
