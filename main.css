@@ -4,3 +4,26 @@
     color: #038C7F; /* Teal text color */
     background-color: #01403A; /* Dark teal background color */
 }
+
+/* Resetting some default styles using multiple selectors separated by commas */
+body, h1, h2, p, ul, li, a {
+    margin: 0; /* Removing the default margin */
+    padding: 0; /* Removing the default padding */
+    font-family: Arial, Helvetica, sans-serif; /* Setting the default font */
+}
+
+/* HTML element selector */
+body {
+    background-color: #012626; /* Dark teal body background color */
+} 
+
+h1 {
+    color: #039C7F; /* Teal text color */
+    font-size: 2em; /* 2x the default font size */
+    margin-bottom: #027368; /* Adding some space below the heading */
+}
+
+h2 {
+    font-size: 1.5em; /* 1.5x the default font size */
+    color: #027368; /* Dark teal text color */
+}
